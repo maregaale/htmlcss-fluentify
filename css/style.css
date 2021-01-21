@@ -164,3 +164,22 @@ nav li {
   font-weight: normal;
 }
 /* /sezione 2 */
+
+/* sezione 3 */
+.column {
+  width: calc(100%/3);
+  height: 500px;
+}
+
+.left-column {
+  background: red;
+}
+
+.center-column {
+  background: blue;
+}
+
+.right-column {
+  background: yellow;
+}
+/* /sezione 3 */
