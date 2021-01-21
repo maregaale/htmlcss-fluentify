@@ -29,6 +29,23 @@ header {
 .float {
   float: left;
 }
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+h4, p {
+  color: #858585
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
 /* /proprietà generali */
 
 /* stile testo link */
@@ -111,7 +128,7 @@ nav li {
   position: absolute;
   bottom: 0;
   left: 35%;
-  height: 85%;
+  height: 90%;
   width: 70%;
 }
 .background img {
@@ -129,16 +146,21 @@ nav li {
   transform: translateY(-50%);
 }
 
-h1 {
-  color: white;
-  font-size: 50px;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-
 .box-2 {
   padding: 20px;
 }
 /* /box centrale */
-
 /* /hero */
+
+/* sezione 2 */
+.section-2 {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 40px 0;
+}
+
+.section-2 h4 {
+  font-size: 20px;
+  font-weight: normal;
+}
+/* /sezione 2 */
