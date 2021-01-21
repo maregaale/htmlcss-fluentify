@@ -22,6 +22,7 @@ header {
 .container {
   width: 85%;
   margin: auto;
+  position: relative;
 }
 
 .float {
@@ -38,6 +39,7 @@ a {
 }
 /* /stile testo link */
 
+/* intestazione */
 /* grandezze blocchi header */
 .container .img-box {
   width: 8%;
@@ -77,7 +79,7 @@ nav li {
 
 /* link box */
 .link-box {
-  background-color: green;
+  background-color: #7CBB02;
   border-radius: 5px;
 }
 
@@ -93,3 +95,33 @@ nav li {
   height: 40px;
 }
 /* /link box */
+/* /intestazione */
+
+/* hero */
+.hero {
+  height: 70vh;
+  background-color: #0C325A;
+}
+
+#color{
+  background-color: green;
+  height: 100%
+}
+
+/* box centrale */
+.hero-text {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: red;
+}
+
+h1 {
+  color: white;
+
+}
+/* /box centrale */
+
+/* /hero */
