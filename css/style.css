@@ -100,7 +100,7 @@ nav li {
 
 /* hero */
 .hero {
-  height: 70vh;
+  height: 500px;
   background-color: #0C325A;
   position: relative;
   overflow: hidden;
@@ -117,7 +117,7 @@ nav li {
 .background img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 /* /foto di sfondo */
 
