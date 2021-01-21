@@ -21,6 +21,7 @@ header {
 
 .container {
   width: 85%;
+  height: 100%;
   margin: auto;
   position: relative;
 }
@@ -101,12 +102,24 @@ nav li {
 .hero {
   height: 70vh;
   background-color: #0C325A;
+  position: relative;
+  overflow: hidden;
 }
 
-#color{
-  background-color: green;
-  height: 100%
+/* foto di sfondo */
+.hero>.background {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  height: 85%;
+  width: 70%;
 }
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* /foto di sfondo */
 
 /* box centrale */
 .hero-text {
