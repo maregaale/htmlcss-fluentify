@@ -34,11 +34,12 @@ a {
   color: white;
   text-decoration: none;
   font-size: 12px;
+  text-transform: uppercase;
 }
 /* /stile testo link */
 
 /* grandezze blocchi header */
-header .img-box {
+.container .img-box {
   width: 8%;
   line-height: 80px;
 }
@@ -72,3 +73,4 @@ nav li {
   margin: 0 15px;
   line-height: 80px;
 }
+/* /navbar */
