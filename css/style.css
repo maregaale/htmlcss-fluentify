@@ -50,7 +50,6 @@ header .img-box {
 
 header nav {
   padding-top: 5px;
-  width: 46%;
   vertical-align: middle;
 
 }
@@ -59,19 +58,17 @@ header nav {
 /* navbar */
 .nav-1 {
   text-align: center;
+  width: 60%;
 }
 
 .nav-2 {
   text-align: right;
+  width: 32%;
 }
 
 nav li {
   list-style: none;
   display: inline-block;
   margin: 0 15px;
-}
-
-nav a {
   line-height: 80px;
 }
-/* /navbar */
