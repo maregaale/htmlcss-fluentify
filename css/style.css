@@ -286,7 +286,7 @@ nav li, .section-5 li {
 #btn-help {
   position: fixed;
   bottom: 0;
-  right: calc(7% + 94px);
+  right: calc(7% + 106px);
   padding: 10px;
   font-size: 16px;
   transform: translateX(+50%);
