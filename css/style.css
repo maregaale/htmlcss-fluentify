@@ -180,7 +180,7 @@ nav li {
 
 /* sezione 3 */
 .column {
-  width: calc(100%/3);
+  width: calc(100% / 3);
   height: 500px;
   padding: 30px;
   text-align: center;
@@ -202,11 +202,4 @@ nav li {
   display: inline-block;
 }
 
-.center-column {
-  background: blue;
-}
-
-.right-column {
-  background: yellow;
-}
 /* /sezione 3 */
