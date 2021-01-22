@@ -29,6 +29,11 @@ header {
 .float {
   float: left;
 }
+
+.float-right {
+  float: right;
+}
+
 .bg-lightgrey {
   background-color: lightgrey;
 }
@@ -69,6 +74,10 @@ h3 {
   font-size: 28px;
   color: #7CBB02;
   font-weight: 500;
+}
+
+.underline {
+
 }
 /* /tipografia */
 /* /proprietà generali */
@@ -112,7 +121,7 @@ header nav {
   width: 42%;
 }
 
-nav li {
+nav li, .section-5 li {
   list-style: none;
   display: inline-block;
   margin: 0 15px;
@@ -243,5 +252,17 @@ nav li {
   color: #5D8BBF;
 }
 /* /blocco testo di destra */
-
 /* /sezione 4 */
+
+/* sezione 5 */
+.section-5 {
+  height: 150px;
+  vertical-align: bottom;
+}
+
+.section-5 li, .section-5 h2 {
+  line-height: 150px;
+}
+
+
+/* /sezione 5 */
