@@ -41,11 +41,24 @@ h4, p {
   color: #858585
 }
 
+h3, p {
+  padding: 20px 0;
+}
+
+p {
+  font-size: 18px;
+}
+
 h2 {
   margin-bottom: 15px;
   font-size: 28px;
 }
 
+h3 {
+  font-size: 28px;
+  color: #7CBB02;
+  font-weight: 500;
+}
 /* /proprietà generali */
 
 /* stile testo link */
@@ -170,6 +183,7 @@ nav li {
   width: calc(100%/3);
   height: 500px;
   padding: 30px;
+  text-align: center;
 }
 
 .img-column {
@@ -183,8 +197,9 @@ nav li {
   width: 100%;
 }
 
-.left-column {
-  background: red;
+.column hr {
+  width: 20%;
+  display: inline-block;
 }
 
 .center-column {
