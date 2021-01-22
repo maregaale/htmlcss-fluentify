@@ -23,7 +23,7 @@ header {
 }
 
 .container {
-  width: 85%;
+  width: 86%;
   height: 100%;
   margin: auto;
   position: relative;
@@ -161,8 +161,8 @@ nav li, .section-5 li {
 /* foto di sfondo */
 .hero>.background {
   position: absolute;
-  top: 20%;
-  left: 40%;
+  top: 15%;
+  left: 35%;
   height: 90%;
   width: 70%;
 }
@@ -273,7 +273,22 @@ nav li, .section-5 li {
   font-size: 16px;
 }
 
+.section-5 ul:last-child li {
+  margin-right: 0;
+}
+
 .section-5 h2 {
   margin-bottom: 0;
 }
 /* /sezione 5 */
+
+/* bottone 'help' */
+#btn-help {
+  position: fixed;
+  bottom: 0;
+  right: calc(7% + 94px);
+  padding: 10px;
+  font-size: 16px;
+  transform: translateX(+50%);
+}
+/* /bottone 'help' */
