@@ -45,7 +45,11 @@ h1 {
 }
 
 h4, p {
-  color: #858585;
+  color: #737373;
+}
+
+H4 {
+ font-weight: 500;
 }
 
 h3, p {
@@ -70,7 +74,7 @@ h3 {
 /* /proprietà generali */
 
 /* stile testo link */
-a {
+a:not(.dec-not) {
   color: white;
   text-decoration: none;
   font-size: 12px;
@@ -217,4 +221,27 @@ nav li {
   width: 50%;
   padding: 0 80px;
 }
+
+/* blocco testo di destra */
+.sect-4-text {
+  width: 37%;
+  padding-left: 40px;
+}
+
+.sect-4-text h2 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.sect-4-text h4 {
+  font-size: 20px;
+}
+
+.dec-not {
+  display: inline-block;
+  padding-top: 40px;
+  color: #5D8BBF;
+}
+/* /blocco testo di destra */
+
 /* /sezione 4 */
