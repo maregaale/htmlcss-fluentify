@@ -33,6 +33,9 @@ header {
   background-color: lightgrey;
 }
 
+.sect-padd {
+  padding: 40px 0;
+}
 /* tipografia */
 h1 {
   color: white;
@@ -148,8 +151,8 @@ nav li {
 /* foto di sfondo */
 .hero>.background {
   position: absolute;
-  bottom: 0;
-  left: 35%;
+  top: 20%;
+  left: 40%;
   height: 90%;
   width: 70%;
 }
@@ -178,7 +181,6 @@ nav li {
 /* sezione 2 */
 .section-2 {
   text-align: center;
-  padding: 40px 0;
 }
 
 .section-2 h4 {
@@ -191,19 +193,14 @@ nav li {
 .column {
   width: calc(100% / 3);
   height: 500px;
-  padding: 30px;
+  padding: 0 30px;
   text-align: center;
 }
 
-.img-column {
+
+.column img {
   width: 100%;
   height: 200px;
-  background-color: white;
-}
-
-.img-column img {
-  height: 100%;
-  width: 100%;
 }
 
 .column hr {
@@ -213,5 +210,11 @@ nav li {
   width: 20%;
   display: inline-block;
 }
-
 /* /sezione 3 */
+
+/* sezione 4 */
+.mnt-img {
+  width: 50%;
+  padding: 0 80px;
+}
+/* /sezione 4 */
