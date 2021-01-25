@@ -211,7 +211,6 @@ nav li, .section-5 li {
 /* sezione 3 */
 .column {
   width: calc(100% / 3);
-  height: 500px;
   padding: 0 30px;
   text-align: center;
 }
